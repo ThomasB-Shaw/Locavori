@@ -1,0 +1,101 @@
+.makerCard {
+    margin-bottom: 20px;
+    border-color: rgb(5,103,54);
+}
+
+.distance {
+    margin-left: 19px;
+}
+
+.ListViewHeader{
+    background-color: rgb(5,103,54);
+    color: white;
+    font-family: 'Vidaloka', serif;
+}
+
+.ListViewButton{
+    background-color: rgb(5,103,54);
+    color: white;
+    border: none;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.ListViewButton:hover{
+    background-color: rgb(5,103,54);
+    /* color: rgb(5,103,54); */
+    text-decoration: underline;
+}
+
+.favoriteBtn {
+   float: right;
+   background-color: rgb(122,172,85);
+   border-color: rgb(122,172,85);
+   transition: 0.3s;
+}
+
+.favoriteBtn:hover {
+   float: right;
+   background-color: white;
+   border-color: white;
+   color: rgb(122,172,85);
+}
+
+.cardImg{
+    height: 210px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.SeeMoreButton{
+    background-color: rgb(122,172,85);
+    color: white;
+    border-color: rgb(122,172,85);
+    /* float: right; */
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.SeeMoreButton:hover{
+    background-color: rgb(5,103,54);
+    color: rgb(250, 250, 245);
+    border: solid 1px rgb(5,103,54);
+}
+
+.aboutContainer {
+    margin-bottom: 50px;
+}
+
+
+/* FAVORITE BUTTON MODAL */
+
+.modalHeader {
+    /* background-color: rgb(122,172,85) !important; */
+    background-color: rgb(5,103,54) !important;
+    color: white;
+}
+
+.modal-header .close {
+    color: rgb(255, 255, 255);
+}
+
+.modal {
+    margin-top: 200px;
+}
+
+.modalBtns {
+    background-color: rgb(122,172,85);
+    border-color: rgb(122,172,85);
+}
+
+.modalBtns:hover {
+    background-color: rgb(5,103,54);
+    border-color: rgb(5,103,54);
+}
+
+.modalFooter {
+    border-top: none;
+}

@@ -1,0 +1,44 @@
+.registerOptionsCard {
+    background-color: rgba(5, 103, 54, 0.981);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    /* border-radius: 10px; */
+}
+
+.registerOptionsBody {
+    padding: 100px;
+    min-height: 80.3vh;
+    background-image: url('../../../TestImages/public-market.jpg');
+    background-size: cover;
+    background-position: 0px -170px;
+}
+
+.registerOptionsButton {
+    margin: 10px;
+    width: 250px;
+    background-color: rgb(122,172,85);
+    border: none;
+    transition: 0.3s;
+}
+
+.registerOptionsButton:hover {
+    margin: 10px;
+    /* margin-top: 8px; */
+    width: 250px;
+    background-color: rgb(122,172,85);
+    border: none;
+    /* box-shadow: 10px 10px rgb(0, 0, 0); */
+    border-radius: 20px;
+}
+
+.buttonsContainer {
+    display: inline-flex;
+}
+
+.registerOptionsHr {
+    background-color: white;
+}

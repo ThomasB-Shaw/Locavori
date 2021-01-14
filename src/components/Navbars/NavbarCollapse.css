@@ -1,0 +1,91 @@
+
+.navBar {
+    background-color: #f2f7f0 !important;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navLogo {
+    width: 200px;
+}
+
+.loginOut {
+      color: #faf5e8 !important;
+      transition: 0.3s;
+}
+
+.loginOut:hover {
+      color: #000000 !important;
+}
+
+.topNav {
+    background-color: rgb(5,103,54);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link2 {
+    color: rgb(235, 235, 235) !important;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 20px;
+    /* padding: 10px; */
+    /* width: 200px; */
+  }
+
+.nav-link2:hover {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+  .navContents {
+    color: white !important;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(122,172,85);
+    border: 2px solid rgb(122,172,85);
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .navContents:hover {
+    color: #faf8f2 !important;
+    width: 200px;
+    background-color: rgb(5,103,54);
+    border-color: rgb(5,103,54);
+  }
+
+  .navContainer {
+        /* padding-bottom: 150px; */
+        margin-bottom: 10px;
+  }
+
+  .title {
+    background-color: rgb(5, 103, 54);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    color: #faf8f2;
+    text-align: center !important;
+    font-family: 'Vidaloka', serif;
+  }
+
+  .brand {
+      padding: 10px;
+      padding-left: 20px;
+      /* background-color: #faf5e8; */
+  }
+
+  .navImg {
+    background-image: url('../../TestImages/tomatoes.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+  }
+
+.navbar-hamburger {
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgb(5,103,54)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}

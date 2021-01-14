@@ -1,0 +1,52 @@
+.filterCardForm {
+    padding: 10px;
+}
+
+.filterGoBtn {
+    width: 100%;
+    background-color: rgb(5,103,54);
+    border-color: rgb(5,103,54);
+}
+
+.filterGoBtn:hover {
+    width: 100%;
+    background-color: rgb(5,103,54);
+    border-color: rgb(5,103,54);
+}
+
+.filterBody {
+    height: 300px;
+    overflow: scroll;
+}
+
+.filterBtn {
+    color: black;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(198, 198, 198);
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+  }
+
+.filterBtn:hover {
+    color: white;
+    background-color: rgb(122,172,85);
+    border: 1px solid rgb(122,172,85);
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .dots {
+    float: right;
+  }
+  
+  .collapseContainer {
+    margin-bottom: 1rem;
+    padding-left: 10px;
+  }
+  
+  .filterContainer {
+    margin-bottom: 10px;
+  }

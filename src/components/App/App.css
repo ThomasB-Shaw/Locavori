@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+html,
+body,
+#react-root {
+  min-height: 100%;
+  padding: 0px;
+  margin: 0;
+  font-family: poppins;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* --------------------------------------------------------------------------------
+Buttons
+-------------------------------------------------------------------------------- */
+
+.btn-green {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: rgb(40,167,69);
+  color: #f8f8f8;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-green:hover {
+  background-color: rgb(30, 123, 52);
+  border: none;
+}
+
+/* --------------------------------------------------------------------------------
+Alert
+-------------------------------------------------------------------------------- */
+
+.alert {
+  box-sizing: border-box;
+  padding: 15px 10px;
+  margin: 15px 0;
+  border: 2px solid #e01616;
+  background-color: #efefef;
+  border-radius: 3px;
+  color: #e01616;
+  font-size: 0.8rem;
+}
+
+/* --------------------------------------------------------------------------------
+Form Treatment
+-------------------------------------------------------------------------------- */
+
+.formPanel {
+  width: 400px;
+  max-width: 100%;
+  padding: 25px;
+  margin: 0 auto 20px;
+  background-color: #efefef;
+  border-radius: 3px;
+}
+
+input {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------------------------------------------------
+HR
+-------------------------------------------------------------------------------- */
+
+.whiteHr {
+  background-color: white;
+}
+
+.lightGreenHr {
+  background-color: rgb(122,172,85);
+}
+
+
+/* --------------------------------------------------------------------------------
+MAP INFO WINDOW
+-------------------------------------------------------------------------------- */
+
+.infoWindowSeeMoreBtn {
+  float: right;
+}

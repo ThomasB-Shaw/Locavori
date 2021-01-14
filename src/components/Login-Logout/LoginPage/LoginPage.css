@@ -1,0 +1,59 @@
+.loginBody {
+    
+    min-height: 80.5vh;
+    /* padding: 100px; */
+}
+
+.loginImg {
+    height: 80.5vh;
+    background-image: url('../../../TestImages/hands.jpg');
+    background-position: bottom;
+    background-size: cover;
+    padding: 100px;
+}
+
+.loginFormContainer {
+    padding: 50px;
+}
+
+.loginForm {
+    background-color: rgba(5, 103, 54, 0) !important;
+    color: rgb(3, 62, 32);
+    border-radius: 10px !important;
+}
+
+.loginBtns {
+    background-color: rgb(122,172,85);
+    color: rgb(245, 243, 236);
+    border: none !important;
+}
+
+.loginBtns:hover {
+    background-color: rgb(3, 62, 32);
+    color: rgb(245, 243, 236);
+}
+
+.registerBtn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(3, 62, 32);
+}
+
+.registerBtn:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(3, 62, 32);
+    text-decoration: underline;
+}
+
+.loginTitle {
+    background-color: rgb(3, 62, 31);
+    color: #fafaf5;
+    font-family: 'Vidaloka', serif;
+    width: 500px;
+    padding: 20px;
+}
+
+.loginTitle hr {
+    background-color: #fafaf5;
+}

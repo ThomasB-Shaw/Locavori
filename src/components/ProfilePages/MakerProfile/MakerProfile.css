@@ -1,0 +1,104 @@
+.logo {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.MakerProfileCard{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(250, 250, 245);
+    justify-content: flex-start;
+    border-color: rgb(250, 250, 245);
+}
+
+
+.MakerProfileHeader{
+    background-color: rgb(5,103,54);
+    color: white;
+    font-family: 'Vidaloka', serif;
+}
+
+.MakerContact{
+    margin-top: 10px;
+    text-align: left;
+}
+
+.MeetTheMaker{
+    padding: 60px;
+    text-align: left;
+    margin: 10px;
+}
+
+
+.WebsiteLink{
+    background-color: rgb(122,172,85);
+    /* margin-left: -260px; */
+    margin-top: -20px;
+    margin-right: 10px;
+    /* margin-right: 10px; */
+    transition: 0.3s;
+    border: none;
+}
+
+.WebsiteLink:hover{
+    background-color: rgb(5,103,54);
+    color: rgb(250, 250, 245);
+}
+
+.SocialIcon{
+    margin-right: 10px;
+    color: rgb(122,172,85);
+    font-size: 40px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.SocialIcon:hover{
+    color: rgb(5,103,54);
+    font-size: 40px;
+    display: inline-block;
+}
+
+
+.MakerTitle{
+    text-decoration: underline 5px solid rgb(5,103,54);
+    padding: 15px;
+}
+
+.MakerImage{
+    border: 5px solid rgb(5,103,54);
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.FeaturedProducts{
+    margin: auto;
+}
+
+.ProductTitle{
+   padding: 5px;
+   color: rgb(5,103,54);
+   /* text-decoration: underline 3px solid rgb(5,103,54); */
+   transition: 0.3s;
+}
+
+.ProductTitle:hover{
+    color: rgb(122,172,85);
+    /* text-decoration: underline 5px solid rgb(5,103,54); */
+    text-decoration: none;
+}
+
+.FeaturedProductImg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+

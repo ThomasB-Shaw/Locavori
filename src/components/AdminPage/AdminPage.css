@@ -1,0 +1,103 @@
+.adminBody {
+    min-height: 93.5vh;
+}
+
+.adminPageTitle {
+    background-color: rgb(5,103,54);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.adminCards {
+    margin: 15px;
+    border-color: rgb(171, 216, 136);
+    width: 100%;
+}
+
+.PendingRequestsBody {
+    display: inline-block;
+    /* align-items: baseline; */
+}
+
+.PendingMakerImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.viewProfileLink {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+.viewProfileBtn {
+    background-color: rgb(122,172,85);
+    border: none;
+    transition: 0.3s;
+}
+
+.viewProfileBtn:hover {
+    background-color: rgb(5,103,54);
+    border: none;
+}
+
+.acceptBtn {
+    background-color: rgb(122,172,85);
+    color: white;
+    border-color: rgb(122,172,85);
+    transition: 0.3s;
+}
+
+.acceptBtn:hover {
+    background-color: rgb(5,103,54);
+    color: white;
+    border-color: rgb(5,103,54);
+}
+
+.declineBtn {
+    background-color: rgb(247, 62, 62);
+    border-color: rgb(247, 62, 62);
+    transition: 0.3s;
+}
+
+.declineBtn:hover {
+    background-color: rgb(232, 0, 0);
+    border-color: red;
+}
+
+.MakerCard {
+    width: 300px;
+    margin: 20px;
+}
+
+.MakerTabBody {
+    display: inline-flex;
+    align-items: baseline;
+}
+.adminMakerImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.makerViewProfileBtn {
+    background-color: rgb(122,172,85);
+    border: none;
+    transition: 0.3s;
+}
+    
+.makerViewProfileBtn:hover {
+    background-color: rgb(5,103,54);
+    border: none;
+    }
+
+.cardHeader {
+    background-color: rgb(122,172,85);
+    color: white;
+}
+
+.cardFooter {
+    border-color: rgb(197, 208, 190);
+}

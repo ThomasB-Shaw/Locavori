@@ -1,0 +1,97 @@
+
+
+.makerAppInput {
+    width: 400px;
+    margin-left: 0;
+}
+
+.dropdown-menu {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+h4{
+    padding-top: 20px;
+}
+
+.makerAppGroup{
+    padding: 20px;
+}
+
+.tab-content {
+    margin-left: 40px;
+}
+
+
+.buttonRow {
+    padding: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.registerHeader {
+    padding: 50px;
+
+}
+
+/* MODALS */
+
+    .modalHeader {
+        /* background-color: rgb(122,172,85) !important; */
+        background-color: rgb(5,103,54) !important;
+        color: white;
+    }
+
+    .modal-header .close {
+        color: rgb(255, 255, 255);
+    }
+
+    .modal {
+        margin-top: 200px;
+    }
+
+    .modalBtns {
+        background-color: rgb(122,172,85);
+        border-color: rgb(122,172,85);
+        margin-right: 10px;
+    }
+
+    .modalBtns:hover {
+        background-color: rgb(5,103,54);
+        border-color: rgb(5,103,54);
+    }
+
+    .modalFooter {
+        border-top: none;
+    }
+
+    .registrationTabs ul > li > a {
+        background-color: gray;
+        color: white;
+    }
+    
+    .nav-link-tabs {
+        color: rgb(0, 0, 0) !important;
+        text-decoration: none;
+        transition: 0.3s;
+        margin-right: 20px;
+    }
+
+    /* STORY TAB */
+
+    .storyBody {
+        padding: 20px;
+        min-height: 54.3vh;
+    }
+
+    #storyInput {
+        height: 300px;
+    }
+
+    #giveBackInput {
+        height: 300px;
+    }
+
+    #anythingElseInput {
+        height: 300px;
+    }
