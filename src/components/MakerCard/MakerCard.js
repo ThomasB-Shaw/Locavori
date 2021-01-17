@@ -35,7 +35,7 @@ class MakerCard extends Component {
                                         onClick= {() => this.ViewProfile(this.props.maker.profile_id)}>
                                             {this.props.maker.business_name}
                                     </Button>
-                                    <p className="distance">{this.props.maker.distanceText}</p>
+                                    <p className="distance">{this.props.maker.distanceText} away</p>
                                 </CardTitle>
 
                             </Col>
